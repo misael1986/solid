@@ -12,7 +12,6 @@ public class Boton {
         if (this.lampara.getStatus()){//Valida que está en True, osea encendida
 
             System.out.println("La lampara fue apagada");
-            
             return false;
         } else {
             System.out.println("La lampara fue encendida");
